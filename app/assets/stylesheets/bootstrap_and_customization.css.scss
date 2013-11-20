@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$body-bg:                                                   #ffffff;
+$font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:                                        45px;
+$navbar-default-bg:                          #bdc3c7;
+$navbar-default-brand-color:      #c0392b;
+$brand-primary:                                    #c0392b;
+$jumbotron-bg:                                         white;
+$navbar-default-link-color: #f9fafa;
+
+@import 'bootstrap';
+
+.center {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar {
+  width: 100%;
+  padding:0px;
+  margins:0px;
+}
+
+
+.container {
+  margin-top: 0px;
+  box-shadow: 0 0 30px black;
+}
+
+#arrow-list li {
+  list-style-image:url('https://s3.amazonaws.com/jeromeskeecoaching/Arrowhead-Right-01-24.png');
+  font-size: 18px;
+  padding-top: 10px;
+}
