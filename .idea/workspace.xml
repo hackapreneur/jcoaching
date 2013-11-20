@@ -8,7 +8,7 @@
     <file path="/application.html.erb" changelist="f9f13bd9-bf49-4ff7-906c-4c5f836806e8" time="1384595333601" ignored="false" />
     <file path="/_header.html.erb" changelist="f9f13bd9-bf49-4ff7-906c-4c5f836806e8" time="1384603450021" ignored="false" />
     <file path="/bootstrap_and_customization.css.scss" changelist="f9f13bd9-bf49-4ff7-906c-4c5f836806e8" time="1384794716679" ignored="false" />
-    <file path="/home.html.erb" changelist="f9f13bd9-bf49-4ff7-906c-4c5f836806e8" time="1384596542918" ignored="false" />
+    <file path="/home.html.erb" changelist="f9f13bd9-bf49-4ff7-906c-4c5f836806e8" time="1384943177252" ignored="false" />
     <file path="/Dummy.txt" changelist="f9f13bd9-bf49-4ff7-906c-4c5f836806e8" time="1384941256312" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
       <file leaf-file-name="home.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="50" selection-start="225" selection-end="225" vertical-scroll-proportion="0.12254902">
+            <state line="10" column="118" selection-start="293" selection-end="293" vertical-scroll-proportion="0.12254902">
               <folding />
             </state>
           </provider>
@@ -144,8 +144,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="443" />
-    <option name="y" value="225" />
+    <option name="x" value="180" />
+    <option name="y" value="503" />
     <option name="width" value="1446" />
     <option name="height" value="797" />
   </component>
@@ -626,7 +626,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="443" y="225" width="1446" height="797" extended-state="0" />
+    <frame x="180" y="503" width="1446" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -811,7 +811,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="50" selection-start="225" selection-end="225" vertical-scroll-proportion="0.12254902">
+        <state line="10" column="118" selection-start="293" selection-end="293" vertical-scroll-proportion="0.12254902">
           <folding />
         </state>
       </provider>
