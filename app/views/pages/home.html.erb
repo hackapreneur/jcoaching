@@ -7,22 +7,29 @@
 </div>
 
 <div class="row">
+
+  <div class="visible-xs visible-sm col-md-8">
+
+  </div>
+
+
   <div class="col-md-8">
     <iframe src="//player.vimeo.com/video/79754078?title=0&amp;byline=0&amp;portrait=0&amp;color=cf112d&amp;autoplay=1" width="500" height="284" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     <br>
 
+
     <div class="panel panel-danger">
       <!-- Default panel contents -->
-      <div class="panel-heading">Join our email list</div>
+      <div class="panel-heading"><b>Join today to recieve videos!</b></div>
       <div class="panel-body">
 
-      <script type="text/javascript" src="http://forms.aweber.com/form/36/657753136.js"></script>
+            <%= render 'layouts/submitform' %> 
       </div>
     </div>
 
 
   </div>
-  <div class="col-md-4">
+  <div class="visible-md visible-lg col-md-4">
 
     <h2><strong>RECEIVE POWERFUL COACHING TIPS</strong></h2>
     <div id="arrow-list">
@@ -33,8 +40,12 @@
       </ul>
     </div>
 
-    <%= image_tag "http://aws-cdn.hottopicmedia.com/dyd/static/images/global/red-arrow.png" %>
-
+    <div class="visible-md">
+    <%= image_tag "http://aws-cdn.hottopicmedia.com/dyd/static/images/global/red-arrow.png", width: '50%' %>
+    </div>
+    <div class="visible-lg">
+    <%= image_tag "http://aws-cdn.hottopicmedia.com/dyd/static/images/global/red-arrow.png", :class =>"img-responsive" %>
+    </div>
 
 
   </div>
