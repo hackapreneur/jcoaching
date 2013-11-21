@@ -1,5 +1,6 @@
 <center>
-  <%= image_tag "https://s3-us-west-2.amazonaws.com/jskeegraphics/logo.png", :class =>"img-responsive"  %>
+  <%= link_to image_tag("https://s3-us-west-2.amazonaws.com/jskeegraphics/logo.png", :class => "img-responsive"), root_path %>
+
 </center>
 
 <nav class="navbar navbar-default" role="navigation">
@@ -15,11 +16,10 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav navbar-left">
-      <li><%= link_to "Core Training", root_path %></li>
-      <li><%= link_to "Target Training", root_path %></li>
-      <li><%= link_to "Bootcamps", root_path %></li>
-      <li><%= link_to "Testimonials", root_path %></li>
-      <li><%= link_to "About", root_path %></li>
+      <li><%= link_to "Members Only Login", root_path %></li>
+      <li><%= link_to "Videos", videos_path %></li>
+      <li><%= link_to "Testimonies", testimonies_path %></li>
+      <li><%= link_to "About Jeromeskee", about_path %></li>
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
