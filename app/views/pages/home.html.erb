@@ -2,7 +2,7 @@
 
 <div class="row">
   <center>
-    <h1><strong>Free Video Reveals Top 3 Breaking Tips</strong></h1>
+    <h1><strong><font color="#e74c3c">Free Video Reveals Top 3 Breaking Tips</font></strong></h1>
   </center>
 </div>
 
@@ -16,9 +16,7 @@
   <div class="col-md-8">
     <iframe src="//player.vimeo.com/video/79754078?title=0&amp;byline=0&amp;portrait=0&amp;color=cf112d&amp;autoplay=1" width="500" height="284" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     <br>
-
-
-    <div class="panel panel-danger">
+    <div class="panel panel-danger visible-md visible-lg">
       <!-- Default panel contents -->
       <div class="panel-heading"><b>Join today to recieve videos!</b></div>
       <div class="panel-body">
@@ -29,9 +27,9 @@
 
 
   </div>
-  <div class="visible-md visible-lg col-md-4">
+  <div class="col-md-4">
 
-    <h2><strong>RECEIVE POWERFUL COACHING TIPS</strong></h2>
+    <h2><strong>RECEIVE POWERFUL COACHING</strong></h2>
     <div id="arrow-list">
       <ul>
         <li>&#8220;B.S.T,&#8221; an unorthodox training method that will increase your stamina twice as fast&#8230; no running required.</li>
@@ -46,7 +44,16 @@
     <div class="visible-lg">
     <%= image_tag "http://aws-cdn.hottopicmedia.com/dyd/static/images/global/red-arrow.png", :class =>"img-responsive" %>
     </div>
-
-
   </div>
+
+     <div class="panel panel-danger visible-xs visible-sm">
+      <!-- Default panel contents -->
+      <div class="panel-heading"><b>Join today to recieve videos!</b></div>
+      <div class="panel-body">
+
+            <%= render 'layouts/submitform' %> 
+      </div>
+    </div>
+
+
 </div>
