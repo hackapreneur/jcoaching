@@ -10,7 +10,9 @@
 
 </center>
 
+
 <nav class="navbar navbar-default" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
       <span class="sr-only">Toggle navigation</span>
@@ -21,13 +23,16 @@
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav navbar-left">
-      <li><%= link_to "Members Only Login", root_path %></li>
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li><%= link_to "Home", root_path %></li>
       <li><%= link_to "Videos", videos_path %></li>
       <li><%= link_to "Testimonies", testimonies_path %></li>
       <li><%= link_to "About Jeromeskee", about_path %></li>
     </ul>
+    
+    <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Members Only Login", root_path %></li>
+    </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
-

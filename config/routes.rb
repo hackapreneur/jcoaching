@@ -4,6 +4,7 @@ Jcoaching::Application.routes.draw do
   get 'about' => 'pages#about'
   get 'videos' => 'pages#videos'
   get 'testimonies' => 'pages#testimonials'
+  get 'confirmation' => 'pages#confirmation'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
