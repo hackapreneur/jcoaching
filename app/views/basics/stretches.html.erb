@@ -4,7 +4,7 @@
 
   <div class="col-xs-3">
   
-  <%= render 'basics/basics_navleft' %>
+  <%= render 'basics/basics_sidenav' %>
   
   </div>
 
@@ -17,14 +17,17 @@
 
 </div>
 
-<div align="right">
-  <%= link_to "Next: Wrist Stretches ->", basics_wriststretches_path , :class => "btn btn-success btn-lg" %>
-</div>
+
+    <ul class="pager">
+      <li class="next">
+        <%= link_to 'Next: Wrist Stretches ->', basics_wriststretches_path %>
+      </li>
+    </ul>
 
 <br>
 <div class="jumbotron">
-  <div class="container">
+
     <h2>Stretches (2:44 mins)</h2>
     <p>Description content instructions go here.</p>
-  </div>
+
 </div>

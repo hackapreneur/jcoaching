@@ -7,10 +7,31 @@ Jcoaching::Application.routes.draw do
   get 'testimonies' => 'pages#testimonials'
   get 'confirmation' => 'pages#confirmation'
 
-  get 'basics' => 'basics#home'
   get 'basics/stretches' => 'basics#stretches'
   get 'basics/wriststretches' => 'basics#wristStretches'
   get 'basics/foundationprinciples' => 'basics#foundationPrinciples'
+
+  get 'core' => 'core#home'
+  get 'core/foundation/toprock' => 'core#f_toprock'
+    get 'core/foundation/footwork1' => 'core#f_footwork_1'
+    get 'core/foundation/footwork2' => 'core#f_footwork_2'
+    get 'core/foundation/freeze1' => 'core#f_freeze_1'
+    get 'core/foundation/freeze2' => 'core#f_freeze_2'  
+
+    get 'core/power/swipes' => 'core#p_swipes'
+    get 'core/power/flares' => 'core#p_flares'
+    get 'core/power/turtles' => 'core#p_turtles'
+    get 'core/power/glides' => 'core#p_glides'
+
+    get 'core/bodyrock/abs' => 'core#b_abs'
+
+
+
+
+
+
+
+  
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

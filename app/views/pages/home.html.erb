@@ -1,5 +1,12 @@
 
 
+
+<% if user_signed_in? %>
+
+<%= render 'layouts/nav/homenav' %>
+
+
+<% else %>
 <div class="row">
   <center>
     <h1><strong><font color="#e74c3c">Free Video Reveals Top 3 Breaking Tips</font></strong></h1>
@@ -14,7 +21,7 @@
 
 
   <div class="col-md-8">
-    <iframe src="//player.vimeo.com/video/79754078?title=0&amp;byline=0&amp;portrait=0&amp;color=cf112d&amp;autoplay=1" width="500" height="284" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe src="//player.vimeo.com/video/80628524?title=0&amp;byline=0&amp;portrait=0&amp;color=cf112d&amp;autoplay=1" width="500" height="284" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     <br>
     <div class="panel panel-default visible-md visible-lg panelbg">
       <!-- Default panel contents -->
@@ -54,6 +61,7 @@
             <%= render 'layouts/submitform' %> 
       </div>
     </div>
-
-
 </div>
+
+
+<% end %>
