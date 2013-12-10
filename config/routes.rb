@@ -7,12 +7,14 @@ Jcoaching::Application.routes.draw do
   get 'testimonies' => 'pages#testimonials'
   get 'confirmation' => 'pages#confirmation'
 
+  get 'smartvideo1' => 'landingpage#smartvideo1'
+
   get 'basics/stretches' => 'basics#stretches'
   get 'basics/wriststretches' => 'basics#wristStretches'
   get 'basics/foundationprinciples' => 'basics#foundationPrinciples'
 
   get 'core' => 'core#home'
-  get 'core/foundation/toprock' => 'core#f_toprock'
+    get 'core/foundation/toprock' => 'core#f_toprock'
     get 'core/foundation/footwork1' => 'core#f_footwork_1'
     get 'core/foundation/footwork2' => 'core#f_footwork_2'
     get 'core/foundation/freeze1' => 'core#f_freeze_1'
