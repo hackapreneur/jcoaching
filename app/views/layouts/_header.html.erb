@@ -25,16 +25,17 @@
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     
     <ul class="nav navbar-nav navfontsize">
-      <li><%= link_to "Home", root_path %></li>
+
     <% if user_signed_in? %>
+      <li><%= link_to "Home", root_path %></li>
       <li><%= link_to "Basics", videos_path %></li>
       <li><%= link_to "Core", videos_path %></li>
       <li><%= link_to "Target", videos_path %></li>
       <li><%= link_to "Bonus", videos_path %></li>
       <li><%= link_to "Coaching", videos_path %></li>
     <% else %>
-      <li><%= link_to "Testimonies", testimonies_path %></li>
-      <li><%= link_to "About Jeromeskee", about_path %></li>
+
+
     <% end %>
     </ul>
     
