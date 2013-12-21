@@ -26,13 +26,6 @@ Jcoaching::Application.routes.draw do
     get 'core/power/glides' => 'core#p_glides'
 
     get 'core/bodyrock/abs' => 'core#b_abs'
-
-
-
-
-
-
-
   
 
   # The priority is based upon order of creation: first created -> highest priority.
