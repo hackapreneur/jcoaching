@@ -7,7 +7,7 @@ Jcoaching::Application.routes.draw do
   get 'testimonies' => 'pages#testimonials'
   get 'confirmation' => 'pages#confirmation'
 
-  get 'lp/smartvideo1' => 'lp#smartvideo1'
+  get 'lp/smartvideo1' => 'lp#smartvid1'
 
   get 'basics/stretches' => 'basics#stretches'
   get 'basics/wriststretches' => 'basics#wristStretches'
