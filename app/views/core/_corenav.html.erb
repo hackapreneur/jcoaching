@@ -80,12 +80,33 @@
           <h4 class="media-heading">Power Moves Now</h4>
           This is a test description come check it out.
            <!-- Nested media object -->
+                  <div class="media">
+                    <a class="pull-left" href="#">
+                      <img class="media-object" data-src="holder.js/64x64" alt="Generic placeholder image" src="data:image/png;base64,">
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading"> <%= link_to "Swipes", core_power_swipes_path %> </h4>
+                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                    </div>
+                  </div>
+
+                  <div class="media">
+                    <a class="pull-left" href="#">
+                      <img class="media-object" data-src="holder.js/64x64" alt="Generic placeholder image" src="data:image/png;base64,">
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading"> <%= link_to "Flares", core_power_flares_path %> </h4>
+                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                    </div>
+                  </div>
+
+
                 <div class="media">
                   <a class="pull-left" href="#">
                     <img class="media-object" data-src="holder.js/64x64" alt="Generic placeholder image" src="data:image/png;base64,">
                   </a>
                   <div class="media-body">
-                    <h4 class="media-heading">Introduction to Toprocks</h4>
+                    <h4 class="media-heading"> <%= link_to "The Turtle", core_power_turtles_path %></h4>
                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
                     <!-- Nested media object -->
                   </div>
@@ -95,40 +116,12 @@
                       <img class="media-object" data-src="holder.js/64x64" alt="Generic placeholder image" src="data:image/png;base64,">
                     </a>
                     <div class="media-body">
-                    <h4 class="media-heading">Footwork Foundation 1: The Six Step & Cross-Over</h4>
+                    <h4 class="media-heading"> <%= link_to "Hand Glides & Crickets", core_power_glides_path %></h4>
                       Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
                     </div>
                   </div>
 
-                  <div class="media">
-                    <a class="pull-left" href="#">
-                      <img class="media-object" data-src="holder.js/64x64" alt="Generic placeholder image" src="data:image/png;base64,">
-                    </a>
-                    <div class="media-body">
-                    <h4 class="media-heading">Footwork Foundation 2: The Three Step, Zulu Spins, Sweep</h4>
-                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                    </div>
-                  </div>
 
-          <div class="media">
-                    <a class="pull-left" href="#">
-                      <img class="media-object" data-src="holder.js/64x64" alt="Generic placeholder image" src="data:image/png;base64,">
-                    </a>
-                    <div class="media-body">
-                    <h4 class="media-heading">Fundamental Freezes 1: Plank, Baby, Crossleg </h4>
-                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                    </div>
-                  </div>
-
-                  <div class="media">
-                    <a class="pull-left" href="#">
-                      <img class="media-object" data-src="holder.js/64x64" alt="Generic placeholder image" src="data:image/png;base64,">
-                    </a>
-                    <div class="media-body">
-                    <h4 class="media-heading">Fundamental Freezes 2: Chair </h4>
-                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                    </div>
-                  </div>
 
                 </div>
                 <!-- Nested media object -->
@@ -142,7 +135,7 @@
           <img class="media-object" src="..." alt="...">
         </a>
         <div class="media-body">
-          <h4 class="media-heading">Body Rock Abs</h4>
+          <h4 class="media-heading"><%= link_to "Body Rock Abs", core_bodyrock_abs_path %></h4>
           This is a test description come check it out.
         </div>
       </li>

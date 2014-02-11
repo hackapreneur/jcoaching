@@ -28,26 +28,18 @@
     <% end %>
 
     <% if current_page?(core_foundation_freeze2_path) %>
-    <%= link_to 'Freezes Part: 2', core_foundation_freeze2_path, {:class=>"list-group-item active"} %>
+    <%= link_to 'Freezes: Chair', core_foundation_freeze2_path, {:class=>"list-group-item active"} %>
     <% else %>
-    <%= link_to 'Freezes Part: 2', core_foundation_freeze2_path, {:class=>"list-group-item"} %>
+    <%= link_to 'Freezes: Chair', core_foundation_freeze2_path, {:class=>"list-group-item"} %>
     <% end %>
 	</div>
 
 <h5>Other Core Sections</h5>
     <div class="list-group">
 
-    <% if current_page?(basics_stretches_path) %>
-    <%= link_to 'Power Moves Now', basics_stretches_path, {:class=>"list-group-item active"} %>
-    <% else %>
-    <%= link_to 'Power Moves Now', basics_stretches_path, {:class=>"list-group-item"} %>
-    <% end %>
+    <%= link_to 'Power Moves Now', core_power_swipes_path, {:class=>"list-group-item"} %>
 
-    <% if current_page?(basics_wriststretches_path) %>
-    <%= link_to 'Bodyrock Abs', basics_wriststretches_path, {:class=>"list-group-item active"} %>
-    <% else %>
-    <%= link_to 'Bodyrock Abs', basics_wriststretches_path, {:class=>"list-group-item"} %>
-    <% end %>
+    <%= link_to 'Bodyrock Abs', core_bodyrock_abs_path, {:class=>"list-group-item"} %>
   </div>
 
 	<% if current_page?(basics_foundationprinciples_path)%>

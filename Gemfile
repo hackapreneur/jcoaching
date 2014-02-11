@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 
 gem "bootstrap-sass", "~> 3.0.3.0"
 gem 'devise', '~> 3.1.1'
+gem "omniauth-paypal"
+gem "omniauth-facebook"
+gem "omniauth-twitter"
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'

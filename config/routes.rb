@@ -2,17 +2,30 @@ Jcoaching::Application.routes.draw do
   devise_for :users
   root "pages#home"
 
+
+  #Main Menu
   get 'about' => 'pages#about'
   get 'videos' => 'pages#videos'
   get 'testimonies' => 'pages#testimonials'
   get 'confirmation' => 'pages#confirmation'
 
+
+  #Sales
   get 'lp/smartvideo1' => 'lp#smartvid1'
 
+  get 'lp/checkout' => 'lp#checkout'
+  get 'lp/cancel' => 'lp#cancels'
+
+  get 'lp/reg21agHwcm' => 'devise/registrations#new'
+
+
+  #Basics Content
+  get 'basics' => 'basics#home'
   get 'basics/stretches' => 'basics#stretches'
   get 'basics/wriststretches' => 'basics#wristStretches'
   get 'basics/foundationprinciples' => 'basics#foundationPrinciples'
 
+  #Core Content
   get 'core' => 'core#home'
     get 'core/foundation/toprock' => 'core#f_toprock'
     get 'core/foundation/footwork1' => 'core#f_footwork_1'
@@ -26,7 +39,10 @@ Jcoaching::Application.routes.draw do
     get 'core/power/glides' => 'core#p_glides'
 
     get 'core/bodyrock/abs' => 'core#b_abs'
-  
+
+
+
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
