@@ -1,7 +1,12 @@
 Jcoaching::Application.routes.draw do
-  devise_for :users
-  root "pages#home"
+  devise_for :users, :controllers => {
+    :registrations => 'registrations'
+  }
 
+  devise_scope :user do
+    match 'users/success', to: 'registrations#success', via: [:get, :post]
+  end
+  root "pages#home"
 
   #Main Menu
   get 'about' => 'pages#about'

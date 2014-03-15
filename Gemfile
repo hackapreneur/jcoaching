@@ -6,12 +6,17 @@ gem "omniauth-paypal"
 gem "omniauth-facebook"
 gem "omniauth-twitter"
 
+gem "paypal-express"
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
 group :development, :test do
      gem 'sqlite3'
+     gem "better_errors"
+     gem "binding_of_caller"
+     gem "therubyracer"
 end
 
 group :production do

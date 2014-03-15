@@ -1,0 +1,14 @@
+development: &sandbox # change to your own
+  username: taylordavid406-facilitator_api1.gmail.com
+  password: 1394807665
+  signature: A6lAH-CgMOkwLNZ1UcDzajc2WLB-AHIM2AGavXCso9Y.gbHCXLJt-WF1
+  sandbox: true
+
+test:
+  <<: *sandbox
+
+production: &production
+  username: SET_YOUR_OWN
+  password: SET_YOUR_OWN
+  signature: SET_YOUR_OWN
+  sandbox: false
