@@ -41,6 +41,19 @@ Jcoaching::Application.routes.draw do
     get 'core/bodyrock/abs' => 'core#b_abs'
 
 
+get 'target' => 'target#home'
+  get 'target/music1' => 'target#music_1'
+  get 'target/music1' => 'target#music_2'
+  get 'target/music1' => 'target#music_3'
+  get 'target/music1' => 'target#music_4'
+  get 'target/music1' => 'target#music_5'
+
+
+
+
+
+
+
 
 
 
